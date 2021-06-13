@@ -1,0 +1,35 @@
+﻿
+# dependencies
+**/node_modules
+
+# production
+**/dist
+/.vscode
+**/**/lib/**
+**/**/es/**
+# misc
+.DS_Store
+npm-debug.log*
+yarn-error.log
+
+/coverage
+.idea
+package-lock.json
+*bak
+.vscode
+
+# visual studio code
+.history
+*.log
+
+functions/mock
+.temp/**
+
+# umi
+.umi
+.umi-production
+
+# screenshot
+screenshot
+.firebase
+.eslintcache
