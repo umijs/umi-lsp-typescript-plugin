@@ -1,0 +1,3362 @@
+﻿{
+  "isGlobalCompletion": true,
+  "isMemberCompletion": false,
+  "isNewIdentifierLocation": false,
+  "optionalReplacementSpan": { "start": 0, "length": 1 },
+  "entries": [
+    { "name": "globalThis", "kind": "module", "kindModifiers": "", "sortText": "5" },
+    { "name": "eval", "kind": "function", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "parseInt", "kind": "function", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "parseFloat", "kind": "function", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "isNaN", "kind": "function", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "isFinite", "kind": "function", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "decodeURI", "kind": "function", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "decodeURIComponent",
+      "kind": "function",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "encodeURI", "kind": "function", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "encodeURIComponent",
+      "kind": "function",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "escape", "kind": "function", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "unescape", "kind": "function", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "NaN", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Infinity", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Symbol", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Object", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Function", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "String", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Boolean", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Number", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Math", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Date", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "RegExp", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Error", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "EvalError", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "RangeError", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "ReferenceError", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SyntaxError", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "TypeError", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "URIError", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "JSON", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Array", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Promise", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "ArrayBuffer", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "DataView", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Int8Array", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Uint8Array", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Uint8ClampedArray", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Int16Array", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Uint16Array", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Int32Array", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Uint32Array", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Float32Array", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Float64Array", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Intl", "kind": "module", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "alert", "kind": "function", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "blur", "kind": "function", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "captureEvents",
+      "kind": "function",
+      "kindModifiers": "deprecated,declare",
+      "sortText": "5"
+    },
+    { "name": "close", "kind": "function", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "confirm", "kind": "function", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "departFocus", "kind": "function", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "focus", "kind": "function", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "getComputedStyle", "kind": "function", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "getMatchedCSSRules",
+      "kind": "function",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "getSelection", "kind": "function", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "matchMedia", "kind": "function", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "moveBy", "kind": "function", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "moveTo", "kind": "function", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "msWriteProfilerMark",
+      "kind": "function",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "open", "kind": "function", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "postMessage", "kind": "function", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "print", "kind": "function", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "prompt", "kind": "function", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "releaseEvents",
+      "kind": "function",
+      "kindModifiers": "deprecated,declare",
+      "sortText": "5"
+    },
+    { "name": "resizeBy", "kind": "function", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "resizeTo", "kind": "function", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "scroll", "kind": "function", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "scrollBy", "kind": "function", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "scrollTo", "kind": "function", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "stop", "kind": "function", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "webkitCancelAnimationFrame",
+      "kind": "function",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    {
+      "name": "webkitConvertPointFromNodeToPage",
+      "kind": "function",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    {
+      "name": "webkitConvertPointFromPageToNode",
+      "kind": "function",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    {
+      "name": "webkitRequestAnimationFrame",
+      "kind": "function",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "toString", "kind": "function", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "dispatchEvent", "kind": "function", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "cancelAnimationFrame",
+      "kind": "function",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    {
+      "name": "requestAnimationFrame",
+      "kind": "function",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "atob", "kind": "function", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "btoa", "kind": "function", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "clearInterval", "kind": "function", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "clearTimeout", "kind": "function", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "createImageBitmap",
+      "kind": "function",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "fetch", "kind": "function", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "queueMicrotask", "kind": "function", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "setInterval", "kind": "function", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "setTimeout", "kind": "function", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "addEventListener", "kind": "function", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "removeEventListener",
+      "kind": "function",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "RTCStatsReport", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "AbortController", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "AbortSignal", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "AbstractRange", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "AnalyserNode", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Animation", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "AnimationEffect", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "AnimationEvent", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "AnimationPlaybackEvent",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "AnimationTimeline", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "ApplicationCache", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Attr", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "AudioBuffer", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "AudioBufferSourceNode", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "AudioContext", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "AudioDestinationNode", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "AudioListener", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "AudioNode", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "AudioParam", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "AudioParamMap", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "AudioProcessingEvent", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "AudioScheduledSourceNode",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "AudioWorklet", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "AudioWorkletNode", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "AuthenticatorAssertionResponse",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    {
+      "name": "AuthenticatorAttestationResponse",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "AuthenticatorResponse", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "BarProp", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "BaseAudioContext", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "BeforeUnloadEvent", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "BhxBrowser", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "BiquadFilterNode", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Blob", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "BroadcastChannel", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "ByteLengthQueuingStrategy",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "CDATASection", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "CSSConditionRule", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "CSSFontFaceRule", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "CSSGroupingRule", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "CSSImportRule", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "CSSKeyframeRule", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "CSSKeyframesRule", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "CSSMediaRule", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "CSSNamespaceRule", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "CSSPageRule", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "CSSRule", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "CSSRuleList", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "CSSStyleDeclaration", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "CSSStyleRule", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "CSSStyleSheet", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "CSSSupportsRule", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Cache", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "CacheStorage", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "CanvasGradient", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "CanvasPattern", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "CanvasRenderingContext2D",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "CaretPosition", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "ChannelMergerNode", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "ChannelSplitterNode", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "CharacterData", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "ClientRect", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "ClientRectList", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Clipboard", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "ClipboardEvent", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "CloseEvent", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Comment", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "CompositionEvent", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "ConstantSourceNode", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "ConvolverNode", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "CountQueuingStrategy", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Credential", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "CredentialsContainer", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Crypto", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "CryptoKey", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "CryptoKeyPair", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "CustomElementRegistry", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "CustomEvent", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "DOMError", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "DOMException", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "DOMImplementation", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "DOMMatrix", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGMatrix", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "WebKitCSSMatrix", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "DOMMatrixReadOnly", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "DOMParser", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "DOMPoint", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGPoint", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "DOMPointReadOnly", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "DOMQuad", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "DOMRect", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGRect", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "DOMRectList", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "DOMRectReadOnly", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "DOMSettableTokenList", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "DOMStringList", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "DOMStringMap", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "DOMTokenList", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "DataCue", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "DataTransfer", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "DataTransferItem", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "DataTransferItemList", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "DeferredPermissionRequest",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "DelayNode", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "DeviceAcceleration", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "DeviceMotionEvent", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "DeviceOrientationEvent",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "DeviceRotationRate", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Document", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "DocumentFragment", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "DocumentTimeline", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "DocumentType", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "DragEvent", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "DynamicsCompressorNode",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "Element", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "ErrorEvent", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Event", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "EventSource", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "EventTarget", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "ExtensionScriptApis", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "External", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "File", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "FileList", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "FileReader", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "FocusEvent", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "FocusNavigationEvent", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "FormData", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "GainNode", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Gamepad", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "GamepadButton", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "GamepadEvent", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "GamepadHapticActuator", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "GamepadPose", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Geolocation", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "GeolocationCoordinates",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "GeolocationPosition", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "GeolocationPositionError",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "HTMLAllCollection", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLAnchorElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLAppletElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLAreaElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLAudioElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLBRElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLBaseElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLBodyElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLButtonElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLCanvasElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLCollection", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLDListElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLDataElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLDataListElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLDetailsElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLDialogElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLDirectoryElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLDivElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLDocument", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLEmbedElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLFieldSetElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLFontElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "HTMLFormControlsCollection",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "HTMLFormElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLFrameElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLFrameSetElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLHRElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLHeadElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLHeadingElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLHtmlElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLIFrameElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLImageElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLInputElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLLIElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLLabelElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLLegendElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLLinkElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLMapElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLMarqueeElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLMediaElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLMenuElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLMetaElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLMeterElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLModElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLOListElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLObjectElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLOptGroupElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLOptionElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLOptionsCollection", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLOutputElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLParagraphElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLParamElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLPictureElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLPreElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLProgressElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLQuoteElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLScriptElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLSelectElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLSlotElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLSourceElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLSpanElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLStyleElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "HTMLTableCaptionElement",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "HTMLTableCellElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLTableColElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "HTMLTableDataCellElement",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "HTMLTableElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "HTMLTableHeaderCellElement",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "HTMLTableRowElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "HTMLTableSectionElement",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "HTMLTemplateElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLTextAreaElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLTimeElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLTitleElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLTrackElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLUListElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLUnknownElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HTMLVideoElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "HashChangeEvent", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Headers", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "History", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "IDBCursor", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "IDBCursorWithValue", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "IDBDatabase", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "IDBFactory", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "IDBIndex", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "IDBKeyRange", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "IDBObjectStore", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "IDBOpenDBRequest", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "IDBRequest", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "IDBTransaction", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "IDBVersionChangeEvent", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "IIRFilterNode", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "ImageBitmap", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "ImageBitmapRenderingContext",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "ImageData", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "InputDeviceInfo", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "InputEvent", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "IntersectionObserver", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "IntersectionObserverEntry",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "KeyboardEvent", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "KeyframeEffect", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "ListeningStateChangedEvent",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "Location", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "MSAssertion", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "MSBlobBuilder", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "MSFIDOCredentialAssertion",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "MSFIDOSignature", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "MSFIDOSignatureAssertion",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "MSGesture", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "MSGraphicsTrust", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "MSInputMethodContext", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "MSMediaKeyError", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "MSMediaKeySession", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "MSMediaKeys", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "MSStream", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "MediaDeviceInfo", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "MediaDevices", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "MediaElementAudioSourceNode",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "MediaEncryptedEvent", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "MediaError", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "MediaKeyMessageEvent", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "MediaKeySession", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "MediaKeyStatusMap", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "MediaKeySystemAccess", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "MediaKeys", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "MediaList", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "MediaQueryList", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "MediaQueryListEvent", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "MediaSource", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "MediaStream", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "MediaStreamAudioDestinationNode",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    {
+      "name": "MediaStreamAudioSourceNode",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "MediaStreamError", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "MediaStreamErrorEvent", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "MediaStreamEvent", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "MediaStreamTrack", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "MediaStreamTrackAudioSourceNode",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "MediaStreamTrackEvent", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "MessageChannel", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "MessageEvent", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "MessagePort", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "MimeType", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "MimeTypeArray", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "MouseEvent", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "MutationEvent", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "MutationObserver", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "MutationRecord", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "NamedNodeMap", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "NavigationPreloadManager",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "Navigator", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Node", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "NodeFilter", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "NodeIterator", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "NodeList", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Notification", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "OfflineAudioCompletionEvent",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "OfflineAudioContext", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "OffscreenCanvas", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "OffscreenCanvasRenderingContext2D",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "OscillatorNode", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "OverconstrainedError", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "OverflowEvent", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "PageTransitionEvent", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "PannerNode", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Path2D", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "PaymentAddress", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "PaymentMethodChangeEvent",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "PaymentRequest", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "PaymentRequestUpdateEvent",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "PaymentResponse", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "PerfWidgetExternal", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Performance", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "PerformanceEntry", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "PerformanceMark", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "PerformanceMeasure", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "PerformanceNavigation", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "PerformanceNavigationTiming",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "PerformanceObserver", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "PerformanceObserverEntryList",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    {
+      "name": "PerformanceResourceTiming",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "PerformanceTiming", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "PeriodicWave", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "PermissionRequest", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "PermissionRequestedEvent",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "PermissionStatus", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Permissions", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Plugin", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "PluginArray", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "PointerEvent", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "PopStateEvent", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "ProcessingInstruction", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "ProgressEvent", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "PromiseRejectionEvent", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "PublicKeyCredential", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "PushManager", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "PushSubscription", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "PushSubscriptionOptions",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "RTCCertificate", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "RTCDTMFSender", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "RTCDTMFToneChangeEvent",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "RTCDataChannel", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "RTCDataChannelEvent", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "RTCDtlsTransport", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "RTCDtlsTransportStateChangedEvent",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "RTCDtmfSender", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "RTCError", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "RTCErrorEvent", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "RTCIceCandidate", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "RTCIceCandidatePairChangedEvent",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "RTCIceGatherer", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "RTCIceGathererEvent", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "RTCIceTransport", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "RTCIceTransportStateChangedEvent",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "RTCIdentityAssertion", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "RTCPeerConnection", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "RTCPeerConnectionIceErrorEvent",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    {
+      "name": "RTCPeerConnectionIceEvent",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "RTCRtpReceiver", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "RTCRtpSender", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "RTCRtpTransceiver", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "RTCSctpTransport", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "RTCSessionDescription", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "RTCSrtpSdesTransport", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "RTCSsrcConflictEvent", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "RTCStatsProvider", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "RTCTrackEvent", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "RadioNodeList", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "RandomSource", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Range", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "ReadableStream", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "ReadableStreamDefaultController",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    {
+      "name": "ReadableStreamDefaultReader",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "Request", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "ResizeObserver", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "ResizeObserverEntry", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "ResizeObserverSize", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Response", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGAElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGAngle", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGAnimateElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "SVGAnimateMotionElement",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    {
+      "name": "SVGAnimateTransformElement",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "SVGAnimatedAngle", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGAnimatedBoolean", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "SVGAnimatedEnumeration",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "SVGAnimatedInteger", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGAnimatedLength", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGAnimatedLengthList", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGAnimatedNumber", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGAnimatedNumberList", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "SVGAnimatedPreserveAspectRatio",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "SVGAnimatedRect", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGAnimatedString", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "SVGAnimatedTransformList",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "SVGAnimationElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGCircleElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGClipPathElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "SVGComponentTransferFunctionElement",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "SVGCursorElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGDefsElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGDescElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGElementInstance", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "SVGElementInstanceList",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "SVGEllipseElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGFEBlendElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "SVGFEColorMatrixElement",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    {
+      "name": "SVGFEComponentTransferElement",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "SVGFECompositeElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "SVGFEConvolveMatrixElement",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    {
+      "name": "SVGFEDiffuseLightingElement",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    {
+      "name": "SVGFEDisplacementMapElement",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    {
+      "name": "SVGFEDistantLightElement",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    {
+      "name": "SVGFEDropShadowElement",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "SVGFEFloodElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGFEFuncAElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGFEFuncBElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGFEFuncGElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGFEFuncRElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "SVGFEGaussianBlurElement",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "SVGFEImageElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGFEMergeElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGFEMergeNodeElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "SVGFEMorphologyElement",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "SVGFEOffsetElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "SVGFEPointLightElement",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    {
+      "name": "SVGFESpecularLightingElement",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "SVGFESpotLightElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGFETileElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "SVGFETurbulenceElement",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "SVGFilterElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "SVGForeignObjectElement",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "SVGGElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGGeometryElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGGradientElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGGraphicsElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGImageElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGLength", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGLengthList", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGLineElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "SVGLinearGradientElement",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "SVGMarkerElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGMaskElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGMetadataElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGNumber", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGNumberList", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGPathElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGPathSeg", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGPathSegArcAbs", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGPathSegArcRel", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGPathSegClosePath", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "SVGPathSegCurvetoCubicAbs",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    {
+      "name": "SVGPathSegCurvetoCubicRel",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    {
+      "name": "SVGPathSegCurvetoCubicSmoothAbs",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    {
+      "name": "SVGPathSegCurvetoCubicSmoothRel",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    {
+      "name": "SVGPathSegCurvetoQuadraticAbs",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    {
+      "name": "SVGPathSegCurvetoQuadraticRel",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    {
+      "name": "SVGPathSegCurvetoQuadraticSmoothAbs",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    {
+      "name": "SVGPathSegCurvetoQuadraticSmoothRel",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "SVGPathSegLinetoAbs", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "SVGPathSegLinetoHorizontalAbs",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    {
+      "name": "SVGPathSegLinetoHorizontalRel",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "SVGPathSegLinetoRel", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "SVGPathSegLinetoVerticalAbs",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    {
+      "name": "SVGPathSegLinetoVerticalRel",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "SVGPathSegList", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGPathSegMovetoAbs", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGPathSegMovetoRel", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGPatternElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGPointList", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGPolygonElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGPolylineElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "SVGPreserveAspectRatio",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    {
+      "name": "SVGRadialGradientElement",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "SVGRectElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGSVGElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGScriptElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGStopElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGStringList", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGStyleElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGSwitchElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGSymbolElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGTSpanElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGTextContentElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGTextElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGTextPathElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "SVGTextPositioningElement",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "SVGTitleElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGTransform", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGTransformList", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGUnitTypes", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGUseElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGViewElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SVGZoomEvent", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Screen", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "ScreenOrientation", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "ScriptProcessorNode", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "SecurityPolicyViolationEvent",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "Selection", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "ServiceUIFrameContext", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "ServiceWorker", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "ServiceWorkerContainer",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    {
+      "name": "ServiceWorkerRegistration",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "ShadowRoot", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SharedWorker", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SourceBuffer", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SourceBufferList", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SpeechGrammar", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SpeechGrammarList", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SpeechRecognition", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "SpeechRecognitionAlternative",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    {
+      "name": "SpeechRecognitionErrorEvent",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    {
+      "name": "SpeechRecognitionEvent",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    {
+      "name": "SpeechRecognitionResult",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    {
+      "name": "SpeechRecognitionResultList",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "SpeechSynthesis", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "SpeechSynthesisErrorEvent",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "SpeechSynthesisEvent", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "SpeechSynthesisUtterance",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "SpeechSynthesisVoice", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "StaticRange", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "StereoPannerNode", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Storage", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "StorageEvent", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "StorageManager", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "StyleMedia", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "StyleSheet", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "StyleSheetList", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SubtleCrypto", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SyncManager", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Text", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "TextDecoder", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "TextDecoderStream", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "TextEncoder", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "TextEncoderStream", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "TextEvent", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "TextMetrics", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "TextTrack", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "TextTrackCue", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "TextTrackCueList", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "TextTrackList", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "TimeRanges", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Touch", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "TouchEvent", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "TouchList", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "TrackEvent", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "TransformStream", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "TransformStreamDefaultController",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "TransitionEvent", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "TreeWalker", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "UIEvent", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "URL", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "webkitURL", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "URLSearchParams", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "VRDisplay", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "VRDisplayCapabilities", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "VRDisplayEvent", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "VREyeParameters", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "VRFieldOfView", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "VRFrameData", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "VRPose", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "VTTCue", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "VTTRegion", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "ValidityState", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "VideoPlaybackQuality", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "VisualViewport", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "WaveShaperNode", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "WebGL2RenderingContext",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "WebGLActiveInfo", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "WebGLBuffer", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "WebGLContextEvent", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "WebGLFramebuffer", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "WebGLProgram", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "WebGLQuery", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "WebGLRenderbuffer", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "WebGLRenderingContext", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "WebGLSampler", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "WebGLShader", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "WebGLShaderPrecisionFormat",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "WebGLSync", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "WebGLTexture", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "WebGLTransformFeedback",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "WebGLUniformLocation", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "WebGLVertexArrayObject",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "WebKitPoint", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "WebSocket", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "WheelEvent", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Window", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Worker", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Worklet", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "WritableStream", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "WritableStreamDefaultController",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    {
+      "name": "WritableStreamDefaultWriter",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "XMLDocument", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "XMLHttpRequest", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "XMLHttpRequestEventTarget",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "XMLHttpRequestUpload", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "XMLSerializer", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "XPathEvaluator", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "XPathExpression", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "XPathResult", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "XSLTProcessor", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "webkitRTCPeerConnection",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "console", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "CSS", "kind": "module", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "WebAssembly", "kind": "module", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Audio", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Image", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Option", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "applicationCache", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "clientInformation", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "closed", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "customElements", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "defaultStatus", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "devicePixelRatio", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "doNotTrack", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "document", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "event", "kind": "var", "kindModifiers": "deprecated,declare", "sortText": "5" },
+    { "name": "external", "kind": "var", "kindModifiers": "deprecated,declare", "sortText": "5" },
+    { "name": "frameElement", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "frames", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "history", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "innerHeight", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "innerWidth", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "length", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "location", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "locationbar", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "menubar", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "msContentScript", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "name", "kind": "const", "kindModifiers": "deprecated,declare", "sortText": "5" },
+    { "name": "navigator", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "offscreenBuffering", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "oncompassneedscalibration",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "ondevicemotion", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "ondeviceorientation", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "ondeviceorientationabsolute",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "ongamepadconnected", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "ongamepaddisconnected", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onmousewheel", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "onorientationchange",
+      "kind": "var",
+      "kindModifiers": "deprecated,declare",
+      "sortText": "5"
+    },
+    { "name": "onreadystatechange", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onvrdisplayactivate", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onvrdisplayblur", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onvrdisplayconnect", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onvrdisplaydeactivate", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onvrdisplaydisconnect", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "onvrdisplaypresentchange",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "opener", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "orientation",
+      "kind": "var",
+      "kindModifiers": "deprecated,declare",
+      "sortText": "5"
+    },
+    { "name": "outerHeight", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "outerWidth", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "pageXOffset", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "pageYOffset", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "parent", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "personalbar", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "screen", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "screenLeft", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "screenTop", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "screenX", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "screenY", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "scrollX", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "scrollY", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "scrollbars", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "self", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "speechSynthesis", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "status", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "statusbar", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "styleMedia", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "toolbar", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "top", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "visualViewport", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "window", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "sessionStorage", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "localStorage", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onabort", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onanimationcancel", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onanimationend", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onanimationiteration", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onanimationstart", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onauxclick", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onblur", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "oncancel", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "oncanplay", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "oncanplaythrough", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onchange", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onclick", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onclose", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "oncontextmenu", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "oncuechange", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "ondblclick", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "ondrag", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "ondragend", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "ondragenter", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "ondragexit", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "ondragleave", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "ondragover", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "ondragstart", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "ondrop", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "ondurationchange", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onemptied", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onended", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onerror", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onfocus", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "ongotpointercapture", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "oninput", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "oninvalid", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onkeydown", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onkeypress", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onkeyup", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onload", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onloadeddata", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onloadedmetadata", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onloadstart", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onlostpointercapture", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onmousedown", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onmouseenter", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onmouseleave", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onmousemove", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onmouseout", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onmouseover", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onmouseup", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onpause", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onplay", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onplaying", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onpointercancel", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onpointerdown", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onpointerenter", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onpointerleave", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onpointermove", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onpointerout", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onpointerover", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onpointerup", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onprogress", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onratechange", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onreset", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onresize", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onscroll", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    {
+      "name": "onsecuritypolicyviolation",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "5"
+    },
+    { "name": "onseeked", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onseeking", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onselect", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onselectionchange", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onselectstart", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onstalled", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onsubmit", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onsuspend", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "ontimeupdate", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "ontoggle", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "ontouchcancel", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "ontouchend", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "ontouchmove", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "ontouchstart", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "ontransitioncancel", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "ontransitionend", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "ontransitionrun", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "ontransitionstart", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onvolumechange", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onwaiting", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onwheel", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "caches", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "crypto", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "indexedDB", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "isSecureContext", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "origin", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "performance", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onafterprint", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onbeforeprint", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onbeforeunload", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onhashchange", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onlanguagechange", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onmessage", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onmessageerror", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onoffline", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "ononline", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onpagehide", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onpageshow", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onpopstate", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onrejectionhandled", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onstorage", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onunhandledrejection", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "onunload", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "importScripts", "kind": "function", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "ActiveXObject", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "WScript", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "WSH", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SafeArray", "kind": "class", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Enumerator", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "VBArray", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "VarDate", "kind": "class", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Map", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "WeakMap", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Set", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "WeakSet", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Proxy", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Reflect", "kind": "module", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "setImmediate", "kind": "function", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "clearImmediate", "kind": "function", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "process", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "global", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "__filename", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "__dirname", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "require", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "module", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "exports", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "SlowBuffer", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "Buffer", "kind": "var", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "NodeJS", "kind": "module", "kindModifiers": "declare", "sortText": "5" },
+    { "name": "undefined", "kind": "var", "kindModifiers": "", "sortText": "5" },
+    {
+      "name": "SlowBuffer",
+      "kind": "alias",
+      "kindModifiers": "declare",
+      "sortText": "6",
+      "source": "buffer",
+      "hasAction": true,
+      "data": { "exportName": "SlowBuffer", "ambientModuleName": "buffer" }
+    },
+    {
+      "name": "Worker",
+      "kind": "class",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "cluster",
+      "hasAction": true,
+      "data": { "exportName": "Worker", "ambientModuleName": "cluster" }
+    },
+    {
+      "name": "isWorker",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "cluster",
+      "hasAction": true,
+      "data": { "exportName": "isWorker", "ambientModuleName": "cluster" }
+    },
+    {
+      "name": "worker",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "cluster",
+      "hasAction": true,
+      "data": { "exportName": "worker", "ambientModuleName": "cluster" }
+    },
+    {
+      "name": "workers",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "cluster",
+      "hasAction": true,
+      "data": { "exportName": "workers", "ambientModuleName": "cluster" }
+    },
+    {
+      "name": "createDeflateRaw",
+      "kind": "function",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "zlib",
+      "hasAction": true,
+      "data": { "exportName": "createDeflateRaw", "ambientModuleName": "zlib" }
+    },
+    {
+      "name": "createInflateRaw",
+      "kind": "function",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "zlib",
+      "hasAction": true,
+      "data": { "exportName": "createInflateRaw", "ambientModuleName": "zlib" }
+    },
+    {
+      "name": "deflateRaw",
+      "kind": "function",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "zlib",
+      "hasAction": true,
+      "data": { "exportName": "deflateRaw", "ambientModuleName": "zlib" }
+    },
+    {
+      "name": "deflateRawSync",
+      "kind": "function",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "zlib",
+      "hasAction": true,
+      "data": { "exportName": "deflateRawSync", "ambientModuleName": "zlib" }
+    },
+    {
+      "name": "inflateRaw",
+      "kind": "function",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "zlib",
+      "hasAction": true,
+      "data": { "exportName": "inflateRaw", "ambientModuleName": "zlib" }
+    },
+    {
+      "name": "inflateRawSync",
+      "kind": "function",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "zlib",
+      "hasAction": true,
+      "data": { "exportName": "inflateRawSync", "ambientModuleName": "zlib" }
+    },
+    {
+      "name": "Z_UNKNOWN",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "zlib",
+      "hasAction": true,
+      "data": { "exportName": "Z_UNKNOWN", "ambientModuleName": "zlib" }
+    },
+    {
+      "name": "networkInterfaces",
+      "kind": "function",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "os",
+      "hasAction": true,
+      "data": { "exportName": "networkInterfaces", "ambientModuleName": "os" }
+    },
+    {
+      "name": "clearScreenDown",
+      "kind": "function",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "readline",
+      "hasAction": true,
+      "data": { "exportName": "clearScreenDown", "ambientModuleName": "readline" }
+    },
+    {
+      "name": "runInNewContext",
+      "kind": "function",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "vm",
+      "hasAction": true,
+      "data": { "exportName": "runInNewContext", "ambientModuleName": "vm" }
+    },
+    {
+      "name": "spawn",
+      "kind": "function",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "child_process",
+      "hasAction": true,
+      "data": { "exportName": "spawn", "ambientModuleName": "child_process" }
+    },
+    {
+      "name": "spawnSync",
+      "kind": "function",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "child_process",
+      "hasAction": true,
+      "data": { "exportName": "spawnSync", "ambientModuleName": "child_process" }
+    },
+    {
+      "name": "ADDRGETNETWORKPARAMS",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "dns",
+      "hasAction": true,
+      "data": { "exportName": "ADDRGETNETWORKPARAMS", "ambientModuleName": "dns" }
+    },
+    {
+      "name": "chown",
+      "kind": "function",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "fs",
+      "hasAction": true,
+      "data": { "exportName": "chown", "ambientModuleName": "fs" }
+    },
+    {
+      "name": "chownSync",
+      "kind": "function",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "fs",
+      "hasAction": true,
+      "data": { "exportName": "chownSync", "ambientModuleName": "fs" }
+    },
+    {
+      "name": "fchown",
+      "kind": "function",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "fs",
+      "hasAction": true,
+      "data": { "exportName": "fchown", "ambientModuleName": "fs" }
+    },
+    {
+      "name": "fchownSync",
+      "kind": "function",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "fs",
+      "hasAction": true,
+      "data": { "exportName": "fchownSync", "ambientModuleName": "fs" }
+    },
+    {
+      "name": "lchown",
+      "kind": "function",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "fs",
+      "hasAction": true,
+      "data": { "exportName": "lchown", "ambientModuleName": "fs" }
+    },
+    {
+      "name": "lchownSync",
+      "kind": "function",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "fs",
+      "hasAction": true,
+      "data": { "exportName": "lchownSync", "ambientModuleName": "fs" }
+    },
+    {
+      "name": "write",
+      "kind": "function",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "fs",
+      "hasAction": true,
+      "data": { "exportName": "write", "ambientModuleName": "fs" }
+    },
+    {
+      "name": "writeSync",
+      "kind": "function",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "fs",
+      "hasAction": true,
+      "data": { "exportName": "writeSync", "ambientModuleName": "fs" }
+    },
+    {
+      "name": "writeFile",
+      "kind": "function",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "fs",
+      "hasAction": true,
+      "data": { "exportName": "writeFile", "ambientModuleName": "fs" }
+    },
+    {
+      "name": "writeFileSync",
+      "kind": "function",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "fs",
+      "hasAction": true,
+      "data": { "exportName": "writeFileSync", "ambientModuleName": "fs" }
+    },
+    {
+      "name": "watchFile",
+      "kind": "function",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "fs",
+      "hasAction": true,
+      "data": { "exportName": "watchFile", "ambientModuleName": "fs" }
+    },
+    {
+      "name": "unwatchFile",
+      "kind": "function",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "fs",
+      "hasAction": true,
+      "data": { "exportName": "unwatchFile", "ambientModuleName": "fs" }
+    },
+    {
+      "name": "watch",
+      "kind": "function",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "fs",
+      "hasAction": true,
+      "data": { "exportName": "watch", "ambientModuleName": "fs" }
+    },
+    {
+      "name": "createWriteStream",
+      "kind": "function",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "fs",
+      "hasAction": true,
+      "data": { "exportName": "createWriteStream", "ambientModuleName": "fs" }
+    },
+    {
+      "name": "win32",
+      "kind": "module",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "path",
+      "hasAction": true,
+      "data": { "exportName": "win32", "ambientModuleName": "path" }
+    },
+    {
+      "name": "CLIENT_RENEG_WINDOW",
+      "kind": "var",
+      "kindModifiers": "declare",
+      "sortText": "6",
+      "source": "tls",
+      "hasAction": true,
+      "data": { "exportName": "CLIENT_RENEG_WINDOW", "ambientModuleName": "tls" }
+    },
+    {
+      "name": "Writable",
+      "kind": "class",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "stream",
+      "hasAction": true,
+      "data": { "exportName": "Writable", "ambientModuleName": "stream" }
+    },
+    {
+      "name": "throws",
+      "kind": "function",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "assert",
+      "hasAction": true,
+      "data": { "exportName": "throws", "ambientModuleName": "assert" }
+    },
+    {
+      "name": "doesNotThrow",
+      "kind": "function",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "assert",
+      "hasAction": true,
+      "data": { "exportName": "doesNotThrow", "ambientModuleName": "assert" }
+    },
+    {
+      "name": "WriteStream",
+      "kind": "class",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "tty",
+      "hasAction": true,
+      "data": { "exportName": "WriteStream", "ambientModuleName": "tty" }
+    },
+    {
+      "name": "ENETDOWN",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "ENETDOWN", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "EOVERFLOW",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "EOVERFLOW", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "EWOULDBLOCK",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "EWOULDBLOCK", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSAEINTR",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSAEINTR", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSAEBADF",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSAEBADF", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSAEACCES",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSAEACCES", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSAEFAULT",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSAEFAULT", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSAEINVAL",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSAEINVAL", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSAEMFILE",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSAEMFILE", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSAEWOULDBLOCK",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSAEWOULDBLOCK", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSAEINPROGRESS",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSAEINPROGRESS", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSAEALREADY",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSAEALREADY", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSAENOTSOCK",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSAENOTSOCK", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSAEDESTADDRREQ",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSAEDESTADDRREQ", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSAEMSGSIZE",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSAEMSGSIZE", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSAEPROTOTYPE",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSAEPROTOTYPE", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSAENOPROTOOPT",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSAENOPROTOOPT", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSAEPROTONOSUPPORT",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSAEPROTONOSUPPORT", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSAESOCKTNOSUPPORT",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSAESOCKTNOSUPPORT", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSAEOPNOTSUPP",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSAEOPNOTSUPP", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSAEPFNOSUPPORT",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSAEPFNOSUPPORT", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSAEAFNOSUPPORT",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSAEAFNOSUPPORT", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSAEADDRINUSE",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSAEADDRINUSE", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSAEADDRNOTAVAIL",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSAEADDRNOTAVAIL", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSAENETDOWN",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSAENETDOWN", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSAENETUNREACH",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSAENETUNREACH", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSAENETRESET",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSAENETRESET", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSAECONNABORTED",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSAECONNABORTED", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSAECONNRESET",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSAECONNRESET", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSAENOBUFS",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSAENOBUFS", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSAEISCONN",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSAEISCONN", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSAENOTCONN",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSAENOTCONN", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSAESHUTDOWN",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSAESHUTDOWN", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSAETOOMANYREFS",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSAETOOMANYREFS", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSAETIMEDOUT",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSAETIMEDOUT", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSAECONNREFUSED",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSAECONNREFUSED", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSAELOOP",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSAELOOP", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSAENAMETOOLONG",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSAENAMETOOLONG", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSAEHOSTDOWN",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSAEHOSTDOWN", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSAEHOSTUNREACH",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSAEHOSTUNREACH", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSAENOTEMPTY",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSAENOTEMPTY", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSAEPROCLIM",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSAEPROCLIM", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSAEUSERS",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSAEUSERS", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSAEDQUOT",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSAEDQUOT", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSAESTALE",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSAESTALE", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSAEREMOTE",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSAEREMOTE", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSASYSNOTREADY",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSASYSNOTREADY", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSAVERNOTSUPPORTED",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSAVERNOTSUPPORTED", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSANOTINITIALISED",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSANOTINITIALISED", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSAEDISCON",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSAEDISCON", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSAENOMORE",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSAENOMORE", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSAECANCELLED",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSAECANCELLED", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSAEINVALIDPROCTABLE",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSAEINVALIDPROCTABLE", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSAEINVALIDPROVIDER",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSAEINVALIDPROVIDER", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSAEPROVIDERFAILEDINIT",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSAEPROVIDERFAILEDINIT", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSASYSCALLFAILURE",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSASYSCALLFAILURE", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSASERVICE_NOT_FOUND",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSASERVICE_NOT_FOUND", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSATYPE_NOT_FOUND",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSATYPE_NOT_FOUND", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSA_E_NO_MORE",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSA_E_NO_MORE", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSA_E_CANCELLED",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSA_E_CANCELLED", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "WSAEREFUSED",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "WSAEREFUSED", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "SIGWINCH",
+      "kind": "var",
+      "kindModifiers": "export,deprecated,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "SIGWINCH", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "SSL_OP_ALLOW_UNSAFE_LEGACY_RENEGOTIATION",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": {
+        "exportName": "SSL_OP_ALLOW_UNSAFE_LEGACY_RENEGOTIATION",
+        "ambientModuleName": "constants"
+      }
+    },
+    {
+      "name": "O_WRONLY",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "O_WRONLY", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "O_RDWR",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "O_RDWR", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "S_IRWXU",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "S_IRWXU", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "S_IWUSR",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "S_IWUSR", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "S_IRWXG",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "S_IRWXG", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "S_IWGRP",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "S_IWGRP", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "S_IRWXO",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "S_IRWXO", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "S_IWOTH",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "S_IWOTH", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "O_NOFOLLOW",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "O_NOFOLLOW", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "W_OK",
+      "kind": "var",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "W_OK", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "SIGPWR",
+      "kind": "var",
+      "kindModifiers": "export,deprecated,declare",
+      "sortText": "6",
+      "source": "constants",
+      "hasAction": true,
+      "data": { "exportName": "SIGPWR", "ambientModuleName": "constants" }
+    },
+    {
+      "name": "cwd",
+      "kind": "method",
+      "kindModifiers": "declare",
+      "sortText": "6",
+      "source": "process",
+      "hasAction": true,
+      "data": { "exportName": "cwd", "ambientModuleName": "process" }
+    },
+    {
+      "name": "emitWarning",
+      "kind": "method",
+      "kindModifiers": "declare",
+      "sortText": "6",
+      "source": "process",
+      "hasAction": true,
+      "data": { "exportName": "emitWarning", "ambientModuleName": "process" }
+    },
+    {
+      "name": "warn",
+      "kind": "method",
+      "kindModifiers": "declare",
+      "sortText": "6",
+      "source": "console",
+      "hasAction": true,
+      "data": { "exportName": "warn", "ambientModuleName": "console" }
+    },
+    {
+      "name": "FlowFlags",
+      "kind": "enum",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "FlowFlags",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "WatchFileKind",
+      "kind": "enum",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "WatchFileKind",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "WatchDirectoryKind",
+      "kind": "enum",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "WatchDirectoryKind",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "PollingWatchKind",
+      "kind": "enum",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "PollingWatchKind",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "NewLineKind",
+      "kind": "enum",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "NewLineKind",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "WatchDirectoryFlags",
+      "kind": "enum",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "WatchDirectoryFlags",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "FileWatcherEventKind",
+      "kind": "enum",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "FileWatcherEventKind",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "isWhiteSpaceLike",
+      "kind": "function",
+      "kindModifiers": "declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "isWhiteSpaceLike",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "isWhiteSpaceSingleLine",
+      "kind": "function",
+      "kindModifiers": "declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "isWhiteSpaceSingleLine",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "textSpanOverlapsWith",
+      "kind": "function",
+      "kindModifiers": "declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "textSpanOverlapsWith",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "textSpanIntersectsWithTextSpan",
+      "kind": "function",
+      "kindModifiers": "declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "textSpanIntersectsWithTextSpan",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "textSpanIntersectsWith",
+      "kind": "function",
+      "kindModifiers": "declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "textSpanIntersectsWith",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "decodedTextSpanIntersectsWith",
+      "kind": "function",
+      "kindModifiers": "declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "decodedTextSpanIntersectsWith",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "textSpanIntersectsWithPosition",
+      "kind": "function",
+      "kindModifiers": "declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "textSpanIntersectsWithPosition",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "textChangeRangeNewSpan",
+      "kind": "function",
+      "kindModifiers": "declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "textChangeRangeNewSpan",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "getTypeParameterOwner",
+      "kind": "function",
+      "kindModifiers": "declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "getTypeParameterOwner",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "walkUpBindingElementsAndPatterns",
+      "kind": "function",
+      "kindModifiers": "declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "walkUpBindingElementsAndPatterns",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "isCallOrNewExpression",
+      "kind": "function",
+      "kindModifiers": "declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "isCallOrNewExpression",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "isNewExpression",
+      "kind": "function",
+      "kindModifiers": "declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "isNewExpression",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "isArrowFunction",
+      "kind": "function",
+      "kindModifiers": "declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "isArrowFunction",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "isAwaitExpression",
+      "kind": "function",
+      "kindModifiers": "declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "isAwaitExpression",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "isExpressionWithTypeArguments",
+      "kind": "function",
+      "kindModifiers": "declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "isExpressionWithTypeArguments",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "isWhileStatement",
+      "kind": "function",
+      "kindModifiers": "declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "isWhileStatement",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "isWithStatement",
+      "kind": "function",
+      "kindModifiers": "declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "isWithStatement",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "isSwitchStatement",
+      "kind": "function",
+      "kindModifiers": "declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "isSwitchStatement",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "isThrowStatement",
+      "kind": "function",
+      "kindModifiers": "declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "isThrowStatement",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "isJSDocUnknownType",
+      "kind": "function",
+      "kindModifiers": "declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "isJSDocUnknownType",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "isJSDocUnknownTag",
+      "kind": "function",
+      "kindModifiers": "declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "isJSDocUnknownTag",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "formatDiagnosticsWithColorAndContext",
+      "kind": "function",
+      "kindModifiers": "export,declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "formatDiagnosticsWithColorAndContext",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "createWatchCompilerHost",
+      "kind": "function",
+      "kindModifiers": "declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "createWatchCompilerHost",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "createWatchProgram",
+      "kind": "function",
+      "kindModifiers": "declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "createWatchProgram",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "createSolutionBuilderWithWatchHost",
+      "kind": "function",
+      "kindModifiers": "declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "createSolutionBuilderWithWatchHost",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "createSolutionBuilderWithWatch",
+      "kind": "function",
+      "kindModifiers": "declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "createSolutionBuilderWithWatch",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "createKeywordTypeNode",
+      "kind": "const",
+      "kindModifiers": "deprecated,declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "createKeywordTypeNode",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "createTypePredicateNodeWithModifier",
+      "kind": "const",
+      "kindModifiers": "deprecated,declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "createTypePredicateNodeWithModifier",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "updateTypePredicateNodeWithModifier",
+      "kind": "const",
+      "kindModifiers": "deprecated,declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "updateTypePredicateNodeWithModifier",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "createNew",
+      "kind": "const",
+      "kindModifiers": "deprecated,declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "createNew",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "updateNew",
+      "kind": "const",
+      "kindModifiers": "deprecated,declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "updateNew",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "createAwait",
+      "kind": "const",
+      "kindModifiers": "deprecated,declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "createAwait",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "updateAwait",
+      "kind": "const",
+      "kindModifiers": "deprecated,declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "updateAwait",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "createWhile",
+      "kind": "const",
+      "kindModifiers": "deprecated,declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "createWhile",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "updateWhile",
+      "kind": "const",
+      "kindModifiers": "deprecated,declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "updateWhile",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "createWith",
+      "kind": "const",
+      "kindModifiers": "deprecated,declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "createWith",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "updateWith",
+      "kind": "const",
+      "kindModifiers": "deprecated,declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "updateWith",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "createSwitch",
+      "kind": "const",
+      "kindModifiers": "deprecated,declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "createSwitch",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "updateSwitch",
+      "kind": "const",
+      "kindModifiers": "deprecated,declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "updateSwitch",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "createThrow",
+      "kind": "const",
+      "kindModifiers": "deprecated,declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "createThrow",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "updateThrow",
+      "kind": "const",
+      "kindModifiers": "deprecated,declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "updateThrow",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "createImmediatelyInvokedArrowFunction",
+      "kind": "const",
+      "kindModifiers": "deprecated,declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "createImmediatelyInvokedArrowFunction",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "createExpressionWithTypeArguments",
+      "kind": "const",
+      "kindModifiers": "deprecated,declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "createExpressionWithTypeArguments",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "updateExpressionWithTypeArguments",
+      "kind": "const",
+      "kindModifiers": "deprecated,declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "updateExpressionWithTypeArguments",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "createArrowFunction",
+      "kind": "const",
+      "kindModifiers": "deprecated,declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "createArrowFunction",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "updateArrowFunction",
+      "kind": "const",
+      "kindModifiers": "deprecated,declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "updateArrowFunction",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/typescript/lib/typescript.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "parseWithNodeMaps",
+      "kind": "alias",
+      "kindModifiers": "declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/@typescript-eslint/typescript-estree/dist/parser",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "parseWithNodeMaps",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/@typescript-eslint/typescript-estree/dist/parser.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    {
+      "name": "createWatchProgram",
+      "kind": "alias",
+      "kindModifiers": "declare",
+      "sortText": "6",
+      "source": "c:/github/umi-plugin/demo/node_modules/@typescript-eslint/typescript-estree/dist/create-program/createWatchProgram",
+      "hasAction": true,
+      "isPackageJsonImport": true,
+      "data": {
+        "exportName": "createWatchProgram",
+        "fileName": "c:/github/umi-plugin/demo/node_modules/@typescript-eslint/typescript-estree/dist/create-program/createWatchProgram.d.ts",
+        "isPackageJsonImport": true
+      }
+    },
+    { "name": "break", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "case", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "catch", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "class", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "const", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "continue", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "debugger", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "default", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "delete", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "do", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "else", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "enum", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "export", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "extends", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "false", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "finally", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "for", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "function", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "if", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "import", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "in", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "instanceof", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "new", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "null", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "return", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "super", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "switch", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "this", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "throw", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "true", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "try", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "typeof", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "var", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "void", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "while", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "with", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "implements", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "interface", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "let", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "package", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "yield", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "as", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "asserts", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "any", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "async", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "await", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "boolean", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "declare", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "infer", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "keyof", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "namespace", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "never", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "readonly", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "number", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "object", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "string", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "symbol", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "type", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "unique", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "unknown", "kind": "keyword", "kindModifiers": "", "sortText": "5" },
+    { "name": "bigint", "kind": "keyword", "kindModifiers": "", "sortText": "5" }
+  ]
+}
