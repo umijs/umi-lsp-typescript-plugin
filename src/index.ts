@@ -19,6 +19,20 @@ function isTagged(node: ts.Node | undefined, condition: TagCondition) {
   return hasTagged(node.parent, condition);
 }
 
+function findAllNodes(sourceFile: ts.SourceFile, cond: (n: ts.Node) => boolean): ts.Node[] {
+  const result: ts.Node[] = [];
+  function find(node: ts.Node) {
+    if (cond(node)) {
+      result.push(node);
+      return;
+    } else {
+      ts.forEachChild(node, find);
+    }
+  }
+  find(sourceFile);
+  return result;
+}
+
 function _findTemplateNodes(fileName: string) {
   const allTemplateStringNodes = this._helper.getAllNodes(
     fileName,
@@ -82,14 +96,23 @@ function create(info: ts.server.PluginCreateInfo) {
     return prior;
   };
 
+  const getSourceFile = (fileName: string) => {
+    const program = ctx.getProgram();
+    if (!program) {
+      throw new Error('language service host does not have program!');
+    }
+    const s = program.getSourceFile(fileName);
+    if (!s) {
+      throw new Error('No source file: ' + fileName);
+    }
+    return s;
+  };
+
   proxy.getSemanticDiagnostics = (fileName) => {
-    const diagnostic = ctx.getSemanticDiagnostics(fileName);
+    const diagnostic = ctx.getSemanticDiagnostics(fileName) || [];
+    const result = [...diagnostic];
     logger(`diagnostic： ${JSON.stringify(diagnostic, null, 2)}`);
-    const nodes = _findTemplateNodes(fileName);
-    nodes.map((node) => {
-      node.getSourceFile();
-    });
-    return diagnostic;
+    return result;
   };
 
   proxy.getQuickInfoAtPosition = (fileName, position) => {
