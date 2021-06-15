@@ -1,14 +1,15 @@
 {
-  "name": "umi-typescript-language-service",
+  "name": "umi-lsp-typescript-plugin",
   "version": "1.0.0",
   "main": "lib/index.js",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/angelozerr/tslint-language-service.git"
+    "url": "https://github.com/umijs/umi-lsp-typescript-plugin.git"
   },
   "scripts": {
-    "tsc": "tsc"
+    "start": "tsc -w",
+    "build": "tsx"
   },
   "dependencies": {
     "@types/node": "^15.12.2",

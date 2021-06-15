@@ -1,1 +1,1 @@
-# umi-typescript-language-service
+# umi-lsp-typescript-plugin
