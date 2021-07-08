@@ -1,49 +1,23 @@
 ﻿import ts from 'typescript/lib/tsserverlibrary';
 import path from 'path';
 import slash2 from 'slash2';
+import { findNode, _findTemplateNode } from './util';
 
-/**
- * config 中配置一般是string
- */
-type TagCondition = string;
-
-function hasTagged(node: ts.Node | undefined, condition: TagCondition) {
-  if (!node) return;
-  if (!ts.isTaggedTemplateExpression(node)) return false;
-  const tagNode = node;
-  return tagNode.tag.getText() === condition;
-}
-
-function isTagged(node: ts.Node | undefined, condition: TagCondition) {
-  if (!node) return false;
-  return hasTagged(node.parent, condition);
-}
-
-function findAllNodes(sourceFile: ts.SourceFile, cond: (n: ts.Node) => boolean): ts.Node[] {
-  const result: ts.Node[] = [];
-  function find(node: ts.Node) {
-    if (cond(node)) {
-      result.push(node);
-      return;
-    } else {
-      ts.forEachChild(node, find);
-    }
+const getTextInfo = (sourceText) => {
+  if (sourceText.includes('history')) {
+    return `配置 history 类型和配置项。
+    包含以下子配置项：
+    
+    type: 可选 browser hash 和 memory
+    
+    options:可选 传给 create{{{ type }}}History 的配置项，每个类型器的配置项不同
+    `;
   }
-  find(sourceFile);
-  return result;
-}
-
-function _findTemplateNodes(fileName: string) {
-  const allTemplateStringNodes = this._helper.getAllNodes(
-    fileName,
-    (n: ts.Node) => ts.isNoSubstitutionTemplateLiteral(n) || ts.isTemplateExpression(n)
-  );
-  const nodes = allTemplateStringNodes.filter((n) => {
-    if (!this._tagCondition) return true;
-    return isTagged(n, this._tagCondition);
-  }) as (ts.NoSubstitutionTemplateLiteral | ts.TemplateExpression)[];
-  return nodes;
-}
+  if (sourceText.includes('component')) {
+    return `配置路由path对应渲染的组件`;
+  }
+  return ``;
+};
 
 function create(info: ts.server.PluginCreateInfo) {
   const { project, config: pluginConfigObj } = info;
@@ -118,7 +92,73 @@ function create(info: ts.server.PluginCreateInfo) {
   proxy.getQuickInfoAtPosition = (fileName, position) => {
     const quickInfo = ctx.getQuickInfoAtPosition(fileName, position);
     logger(`quickInfo: ${JSON.stringify(quickInfo, null, 2)}`);
-    return quickInfo;
+    const node = findNode(getSourceFile(fileName), position);
+    const sourceText = node.getText();
+
+    return {
+      kind: ts.ScriptElementKind.string,
+      textSpan: {
+        start: position,
+        length: 1,
+      },
+      kindModifiers: '',
+      displayParts: quickInfo.displayParts,
+      documentation: [
+        {
+          text: getTextInfo(sourceText),
+          kind: ts.ScriptElementKind.string,
+        },
+      ],
+    } as ts.QuickInfo;
+  };
+
+  proxy.getDefinitionAndBoundSpan = (fileName, position) => {
+    const andBoundSpanList = ctx.getDefinitionAndBoundSpan(fileName, position);
+    logger(`DefinitionAndBoundSpan: ${JSON.stringify(andBoundSpanList, null, 2)}`);
+    const node = findNode(getSourceFile(fileName), position);
+    const sourceText = node.getText();
+    if (sourceText === 'component') {
+      const fullStart = node.parent
+        .getFullText()
+        .split(':')
+        .pop()
+        .trim()
+        .replace("'", '')
+        .replace("'", '');
+      logger(`fullStart: ${JSON.stringify(fullStart, null, 2)}`);
+
+      logger(
+        `fullStart: ${JSON.stringify(
+          {
+            ...andBoundSpanList,
+            definitions: [
+              {
+                ...andBoundSpanList.definitions[0],
+                containerName: '',
+                kind: 'function',
+                fileName: slash2(path.join(projectDir, 'src/pages', fullStart)),
+                // fileName: 'c:/github/umi-plugin/demo/index.ts',
+              },
+            ],
+          },
+          null,
+          2
+        )}`
+      );
+      return {
+        ...andBoundSpanList,
+        definitions: [
+          {
+            ...andBoundSpanList.definitions[0],
+            containerName: '',
+            kind: 'function',
+            fileName: slash2(path.join(projectDir, 'src/pages', `${fullStart}.tsx`)),
+            // fileName: 'c:/github/umi-plugin/demo/index.ts',
+          },
+        ],
+      };
+    }
+    return andBoundSpanList;
   };
 
   return proxy;
