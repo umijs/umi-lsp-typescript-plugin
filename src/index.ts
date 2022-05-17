@@ -1,8 +1,13 @@
-﻿import ts from 'typescript/lib/tsserverlibrary';
+﻿import ts, { ScriptElementKind } from 'typescript/lib/tsserverlibrary';
 import path from 'path';
 import slash2 from 'slash2';
 import { findNode, _findTemplateNode } from './util';
 
+/**
+ * 这里可以想办法从服务器搞一个提示，这样config的代码和参考链接都可以在vscode中看到
+ * @param sourceText
+ * @returns
+ */
 const getTextInfo = (sourceText) => {
   if (sourceText.includes('history')) {
     return `配置 history 类型和配置项。
@@ -30,14 +35,16 @@ function create(info: ts.server.PluginCreateInfo) {
   logger('projectDir: ' + projectDir);
   // Set up decorator
   const proxy: ts.LanguageService = Object.create(null);
-  for (let k of Object.keys(info.languageService) as Array<keyof ts.LanguageService>) {
+  for (let k of Object.keys(info.languageService) as Array<
+    keyof ts.LanguageService
+  >) {
     const x = info.languageService[k];
     //@ts-ignore
     proxy[k] = (...args: Array<{}>) => x.apply(info.languageService, args);
   }
 
   /**
-   * 是不是在config 文件夹中
+   * 是不是在config 文件夹中，如果是说明是 umi 的配置
    * @param fileName
    * @returns
    */
@@ -54,7 +61,11 @@ function create(info: ts.server.PluginCreateInfo) {
   const ctx = info.languageService;
 
   proxy.getCompletionsAtPosition = (fileName, position, options) => {
-    const prior = info.languageService.getCompletionsAtPosition(fileName, position, options);
+    const prior = info.languageService.getCompletionsAtPosition(
+      fileName,
+      position,
+      options
+    );
     logger(`prior ${JSON.stringify(prior, null, 2)}`);
     if (!isConfigFolder(fileName)) {
       return prior;
@@ -114,7 +125,9 @@ function create(info: ts.server.PluginCreateInfo) {
 
   proxy.getDefinitionAndBoundSpan = (fileName, position) => {
     const andBoundSpanList = ctx.getDefinitionAndBoundSpan(fileName, position);
-    logger(`DefinitionAndBoundSpan: ${JSON.stringify(andBoundSpanList, null, 2)}`);
+    logger(
+      `DefinitionAndBoundSpan: ${JSON.stringify(andBoundSpanList, null, 2)}`
+    );
     const node = findNode(getSourceFile(fileName), position);
     const sourceText = node.getText();
     if (sourceText === 'component') {
@@ -145,18 +158,23 @@ function create(info: ts.server.PluginCreateInfo) {
           2
         )}`
       );
-      return {
+      const definitions: ts.DefinitionInfoAndBoundSpan['definitions'] = [
+        {
+          ...andBoundSpanList.definitions[0],
+          containerName: '',
+          kind: ScriptElementKind.functionElement,
+          fileName: slash2(
+            path.join(projectDir, 'src/pages', `${fullStart}.tsx`)
+          ),
+          // fileName: 'c:/github/umi-plugin/demo/index.ts',
+        },
+      ];
+
+      const span: ts.DefinitionInfoAndBoundSpan = {
         ...andBoundSpanList,
-        definitions: [
-          {
-            ...andBoundSpanList.definitions[0],
-            containerName: '',
-            kind: 'function',
-            fileName: slash2(path.join(projectDir, 'src/pages', `${fullStart}.tsx`)),
-            // fileName: 'c:/github/umi-plugin/demo/index.ts',
-          },
-        ],
+        definitions,
       };
+      return span;
     }
     return andBoundSpanList;
   };
@@ -164,7 +182,9 @@ function create(info: ts.server.PluginCreateInfo) {
   return proxy;
 }
 
-const pluginModuleFactory: ts.server.PluginModuleFactory = ({}: { typescript: typeof ts }) => {
+const pluginModuleFactory: ts.server.PluginModuleFactory = ({}: {
+  typescript: typeof ts;
+}) => {
   return { create };
 };
 

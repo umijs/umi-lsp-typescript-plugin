@@ -17,7 +17,10 @@ export function isTagged(node: ts.Node | undefined, condition: TagCondition) {
   return hasTagged(node.parent, condition);
 }
 
-export function findAllNodes(sourceFile: ts.SourceFile, cond: (n: ts.Node) => boolean): ts.Node[] {
+export function findAllNodes(
+  sourceFile: ts.SourceFile,
+  cond: (n: ts.Node) => boolean
+): ts.Node[] {
   const result: ts.Node[] = [];
   function find(node: ts.Node) {
     if (cond(node)) {
@@ -34,7 +37,8 @@ export function findAllNodes(sourceFile: ts.SourceFile, cond: (n: ts.Node) => bo
 export function _findTemplateNodes(fileName: string) {
   const allTemplateStringNodes = this._helper.getAllNodes(
     fileName,
-    (n: ts.Node) => ts.isNoSubstitutionTemplateLiteral(n) || ts.isTemplateExpression(n)
+    (n: ts.Node) =>
+      ts.isNoSubstitutionTemplateLiteral(n) || ts.isTemplateExpression(n)
   );
   const nodes = allTemplateStringNodes.filter((n) => {
     if (!this._tagCondition) return true;
@@ -43,7 +47,10 @@ export function _findTemplateNodes(fileName: string) {
   return nodes;
 }
 
-export function findNode(sourceFile: ts.SourceFile, position: number): ts.Node | undefined {
+export function findNode(
+  sourceFile: ts.SourceFile,
+  position: number
+): ts.Node | undefined {
   function find(node: ts.Node): ts.Node | undefined {
     if (position >= node.getStart() && position < node.getEnd()) {
       return ts.forEachChild(node, find) || node;
@@ -70,7 +77,10 @@ export function _findTemplateNode(fileName: string, position: number, ctx) {
   let node: ts.NoSubstitutionTemplateLiteral | ts.TemplateExpression;
   if (ts.isNoSubstitutionTemplateLiteral(foundNode)) {
     node = foundNode;
-  } else if (ts.isTemplateHead(foundNode) && !isTemplateLiteralTypeNode(foundNode.parent)) {
+  } else if (
+    ts.isTemplateHead(foundNode) &&
+    !isTemplateLiteralTypeNode(foundNode.parent)
+  ) {
     node = foundNode.parent;
   } else if (
     (ts.isTemplateMiddle(foundNode) || ts.isTemplateTail(foundNode)) &&

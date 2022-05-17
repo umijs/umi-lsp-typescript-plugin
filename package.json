@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "tsc -w",
-    "build": "tsx"
+    "build": "tsc"
   },
   "dependencies": {
     "@types/node": "^15.12.2",
