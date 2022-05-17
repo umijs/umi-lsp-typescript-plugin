@@ -53,10 +53,10 @@ export function findNode(
 ): ts.Node | undefined {
   function find(node: ts.Node): ts.Node | undefined {
     if (position >= node.getStart() && position < node.getEnd()) {
-      return ts.forEachChild(node, find) || node;
+      return node.forEachChild((node) => find(node)) || node;
     }
   }
-  return find(sourceFile);
+  return sourceFile.forEachChild((node) => find(node));
 }
 
 const getSourceFile = (fileName: string, ctx) => {

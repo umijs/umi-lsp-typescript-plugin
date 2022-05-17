@@ -124,12 +124,13 @@ function create(info: ts.server.PluginCreateInfo) {
   };
 
   proxy.getDefinitionAndBoundSpan = (fileName, position) => {
+    logger(`sourceText: ${fileName}:${position}`);
+
     const andBoundSpanList = ctx.getDefinitionAndBoundSpan(fileName, position);
-    logger(
-      `DefinitionAndBoundSpan: ${JSON.stringify(andBoundSpanList, null, 2)}`
-    );
+
     const node = findNode(getSourceFile(fileName), position);
     const sourceText = node.getText();
+
     if (sourceText === 'component') {
       const fullStart = node.parent
         .getFullText()
