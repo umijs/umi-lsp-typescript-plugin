@@ -7,6 +7,9 @@
     "type": "git",
     "url": "https://github.com/umijs/umi-lsp-typescript-plugin.git"
   },
+  "files": [
+    "./lib"
+  ],
   "scripts": {
     "start": "tsc -w",
     "build": "tsc"
