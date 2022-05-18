@@ -81,31 +81,28 @@ function create(info: ts.server.PluginCreateInfo) {
     logger(`prior ${JSON.stringify(prior, null, 2)}`);
 
     // 在 config 文件夹中删除 @@ 和 @/.umi 的自动补全
-    prior!.entries = prior!.entries.filter((item) => {
-      if (
-        item.source?.toLocaleLowerCase().startsWith('@@') ||
-        item.source?.toLocaleLowerCase().startsWith('@/.umi')
-      ) {
-        return false;
-      }
+    prior!.entries = prior!.entries
+      .filter((item) => {
+        if (
+          item.source?.toLocaleLowerCase().startsWith('@@') ||
+          item.source?.toLocaleLowerCase().startsWith('@/.umi')
+        ) {
+          return false;
+        }
 
-      return true;
-    });
+        return true;
+      })
+      .map((item) => {
+        const isRecommended: boolean = item.source?.startsWith('umi')
+          ? true
+          : false;
+        return {
+          ...item,
+          sortText: item.source?.startsWith('umi') ? '1' : `2${item.sortText}`,
+          isRecommended,
+        } as ts.CompletionEntry;
+      });
 
-    /**
-     * 带 umi 的排在前面
-     */
-    prior!.entries = prior!.entries.sort((item, nextItem) => {
-      if (item.source?.includes('umi') || nextItem.source?.includes('umi'))
-        return 0;
-      if (!item.source?.includes('umi') || nextItem.source?.includes('umi'))
-        return 1;
-      if (item.source?.includes('umi') || !nextItem.source?.includes('umi'))
-        return -1;
-      return 0;
-    });
-
-    logger(`prior result ${JSON.stringify(prior!.entries, null, 2)}`);
     return prior;
   };
 
