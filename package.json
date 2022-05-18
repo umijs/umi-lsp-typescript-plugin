@@ -8,7 +8,7 @@
     "url": "https://github.com/umijs/umi-lsp-typescript-plugin.git"
   },
   "files": [
-    "./lib"
+    "./lib/*"
   ],
   "scripts": {
     "start": "tsc -w",
