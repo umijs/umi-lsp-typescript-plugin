@@ -89,9 +89,6 @@ function create(info: ts.server.PluginCreateInfo) {
         return false;
       }
 
-      if (!item.source) {
-        return false;
-      }
       return true;
     });
 
