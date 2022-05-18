@@ -78,6 +78,17 @@ function create(info: ts.server.PluginCreateInfo) {
       return true;
     });
 
+    // 在 config 文件夹中删除 @@ 和 @/.umi 的自动补全
+    prior!.entries = prior!.entries.filter((item) => {
+      if (
+        item.source.toLocaleLowerCase().startsWith('@@') ||
+        item.source.toLocaleLowerCase().startsWith('@/.umi')
+      ) {
+        return false;
+      }
+      return true;
+    });
+
     return prior;
   };
 

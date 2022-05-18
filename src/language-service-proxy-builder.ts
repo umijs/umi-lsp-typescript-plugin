@@ -10,10 +10,10 @@ export class LanguageServiceProxyBuilder {
 
   constructor(private _info: ts.server.PluginCreateInfo) {}
 
-  wrap<K extends keyof ts.LanguageService, Q extends LanguageServiceMethodWrapper<K>>(
-    name: K,
-    wrapper: Q
-  ) {
+  wrap<
+    K extends keyof ts.LanguageService,
+    Q extends LanguageServiceMethodWrapper<K>
+  >(name: K, wrapper: Q) {
     this._wrappers.push({ name, wrapper });
     return this;
   }
