@@ -66,29 +66,49 @@ function create(info: ts.server.PluginCreateInfo) {
       position,
       options
     );
+
+    // if (isConfigFolder(fileName)) {
+    //   // 在 config 文件夹中删除 window 的自动提示
+    //   prior!.entries = prior!.entries.filter((item) => {
+    //     if (item.name.toLocaleLowerCase() === 'window') {
+    //       return false;
+    //     }
+    //     return true;
+    //   });
+    //   return prior;
+    // }
+
     logger(`prior ${JSON.stringify(prior, null, 2)}`);
-    if (!isConfigFolder(fileName)) {
-      return prior;
-    }
-    // 在 config 文件夹中删除 window 的自动提示
-    prior!.entries = prior!.entries.filter((item) => {
-      if (item.name.toLocaleLowerCase() === 'window') {
-        return false;
-      }
-      return true;
-    });
 
     // 在 config 文件夹中删除 @@ 和 @/.umi 的自动补全
     prior!.entries = prior!.entries.filter((item) => {
       if (
-        item.source.toLocaleLowerCase().startsWith('@@') ||
-        item.source.toLocaleLowerCase().startsWith('@/.umi')
+        item.source?.toLocaleLowerCase().startsWith('@@') ||
+        item.source?.toLocaleLowerCase().startsWith('@/.umi')
       ) {
+        return false;
+      }
+
+      if (!item.source) {
         return false;
       }
       return true;
     });
 
+    /**
+     * 带 umi 的排在前面
+     */
+    prior!.entries = prior!.entries.sort((item, nextItem) => {
+      if (item.source?.includes('umi') || nextItem.source?.includes('umi'))
+        return 0;
+      if (!item.source?.includes('umi') || nextItem.source?.includes('umi'))
+        return 1;
+      if (item.source?.includes('umi') || !nextItem.source?.includes('umi'))
+        return -1;
+      return 0;
+    });
+
+    logger(`prior result ${JSON.stringify(prior!.entries, null, 2)}`);
     return prior;
   };
 
