@@ -1,6 +1,6 @@
 {
   "name": "umi-lsp-typescript-plugin",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "lib/index.js",
   "license": "MIT",
   "repository": {
